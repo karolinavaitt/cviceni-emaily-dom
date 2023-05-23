@@ -7,9 +7,9 @@ export const Email = (props) => {
 
   const emailElm = document.createElement("div");
   emailElm.classList.add("email");
-  if (body) {
-    emailElm.classList.add("email--expand");
-  }
+  // if (body) {
+  //   emailElm.classList.add("email--expand");
+  // }
   emailElm.innerHTML = `
         <div class="email__head">
               <button class="email__icon email__icon--${iconClass}"></button>
